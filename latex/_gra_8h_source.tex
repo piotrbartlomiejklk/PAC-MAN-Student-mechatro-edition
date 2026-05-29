@@ -1,0 +1,39 @@
+\doxysection{Gra.\+h}
+\hypertarget{_gra_8h_source}{}\label{_gra_8h_source}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#ifndef\ GRA\_H}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#define\ GRA\_H}}
+\DoxyCodeLine{00003\ }
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#include\ <vector>}}
+\DoxyCodeLine{00005\ \textcolor{preprocessor}{\#include\ <memory>}}
+\DoxyCodeLine{00006\ \textcolor{preprocessor}{\#include\ <string>}}
+\DoxyCodeLine{00007\ }
+\DoxyCodeLine{00008\ \textcolor{preprocessor}{\#include\ "{}Mapa.h"{}}}
+\DoxyCodeLine{00009\ \textcolor{preprocessor}{\#include\ "{}Gracz.h"{}}}
+\DoxyCodeLine{00010\ \textcolor{preprocessor}{\#include\ "{}Wrog.h"{}}}
+\DoxyCodeLine{00011\ \textcolor{preprocessor}{\#include\ "{}Przedmiot.h"{}}}
+\DoxyCodeLine{00012\ }
+\DoxyCodeLine{00013\ \textcolor{keyword}{using\ namespace\ }std;}
+\DoxyCodeLine{00014\ }
+\DoxyCodeLine{00015\ \textcolor{keyword}{class\ }Gra\ \{}
+\DoxyCodeLine{00016\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00017\ \ \ \ \ \doxymbox{\hyperlink{class_mapa}{Mapa}}\ m\_mapa;}
+\DoxyCodeLine{00018\ \ \ \ \ vector<unique\_ptr<Gracz>>\ m\_gracze;}
+\DoxyCodeLine{00019\ \ \ \ \ vector<unique\_ptr<Wrog>>\ m\_wrogowie;}
+\DoxyCodeLine{00020\ \ \ \ \ vector<unique\_ptr<Przedmiot>>\ m\_przedmioty;}
+\DoxyCodeLine{00021\ \ \ \ \ \textcolor{keywordtype}{bool}\ m\_graTrwa;}
+\DoxyCodeLine{00022\ }
+\DoxyCodeLine{00023\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00024\ \ \ \ \ Gra();}
+\DoxyCodeLine{00025\ \ \ \ \ \textcolor{keywordtype}{bool}\ inicjalizujPoziom(\textcolor{keyword}{const}\ \textcolor{keywordtype}{string}\&\ sciezkaDoPliku);}
+\DoxyCodeLine{00026\ \ \ \ \ \textcolor{keywordtype}{void}\ aktualizujStanGry();}
+\DoxyCodeLine{00027\ \ \ \ \ \textcolor{keyword}{const}\ \doxymbox{\hyperlink{class_mapa}{Mapa}}\&\ getMapa()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00028\ \ \ \ \ \textcolor{keyword}{const}\ vector<unique\_ptr<Gracz>>\&\ getGracze()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00029\ \ \ \ \ \textcolor{keyword}{const}\ vector<unique\_ptr<Wrog>>\&\ getWrogowie()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00030\ \ \ \ \ \textcolor{keyword}{const}\ vector<unique\_ptr<Przedmiot>>\&\ getPrzedmioty()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00031\ \ \ \ \ \textcolor{keywordtype}{bool}\ czyGraTrwa()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00032\ \};}
+\DoxyCodeLine{00033\ }
+\DoxyCodeLine{00034\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//}}
+
+\end{DoxyCode}

@@ -1,0 +1,25 @@
+var NAVTREEINDEX0 =
+{
+"_gra_8h_source.html":[1,0,1],
+"_gracz_8h_source.html":[1,0,2],
+"_mapa_8h_source.html":[1,0,4],
+"_o_k_n_o___g_r_y_8h_source.html":[1,0,5],
+"_przedmiot_8h_source.html":[1,0,6],
+"annotated.html":[0,0],
+"class_elementy_gry.html":[0,0,0],
+"class_gra.html":[0,0,1],
+"class_gracz.html":[0,0,2],
+"class_main_window.html":[0,0,3],
+"class_mapa.html":[0,0,4],
+"class_okno_gry.html":[0,0,5],
+"class_przedmiot.html":[0,0,6],
+"class_wrog.html":[0,0,7],
+"classes.html":[0,1],
+"elementy__gry_8h_source.html":[1,0,0],
+"files.html":[1,0],
+"hierarchy.html":[0,2],
+"index.html":[],
+"mainwindow_8h_source.html":[1,0,3],
+"pages.html":[],
+"wrog_8h_source.html":[1,0,7]
+};

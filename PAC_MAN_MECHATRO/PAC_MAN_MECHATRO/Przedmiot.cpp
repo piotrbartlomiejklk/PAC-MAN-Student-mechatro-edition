@@ -1,1 +1,0 @@
-#include "Przedmiot.h"
